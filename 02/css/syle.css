@@ -1,0 +1,40 @@
+*{
+     color:darkblue; /*font style */
+}
+body{
+    padding: 0;
+    color:red;
+    background: rgb(85, 85, 85);
+}
+h1{
+    color:brown;
+}
+h2{
+    color:antiquewhite
+}
+h3,h4,h5{
+    background: #fff;
+    color: chartreuse;
+}
+p{
+    background: green;
+    border: 3px double black;
+}
+p span{
+    background: yellow;
+    color:#781fd8fd;
+}
+div{
+    background: #fff;
+    opacity: 0.5;
+    /* padding: 10px 40px 5px 20px; */
+    margin: 0 40px 50px 50px;
+    width: 250px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius:20px
+}
+
+
+
