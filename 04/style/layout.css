@@ -1,0 +1,104 @@
+.hidden-ov{
+    width: 200px;
+    height: 12px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.scroll-ov{
+    width: 200px;
+    height: 12px;
+    border: 1px solid black;
+    overflow: scroll; 
+}
+.auto-ov{
+    width: 200px;
+    height: 12px;
+    border: 1px solid black;
+    /* overflow: auto;  */
+    overflow-x: hidden;  /*Remove content horizontal  */
+    overflow-y: hidden;
+}
+
+.float-img{
+    border: 2px solid red;
+    width: 400px;
+}
+.float-img img{
+    float: right;
+    margin: 20px;
+}
+
+.clear::before,
+.clear::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.img-block{
+    background-color: yellow;
+    width: 25%;
+}
+.img-block img{
+    width: 100%;
+}
+.text-block{
+    background-color: blue;
+    width: 75%;
+}
+
+ul li{
+    display: inline-block;
+    border:1px solid blueviolet;
+    padding-right:30px;
+}
+ul li:last-child{
+    padding-right: 0;
+}
+.clear{
+    margin-top: 40px;
+}
+.flex{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
+}
+.flex-item{
+    background: orange;
+    padding: 20px;
+    width: 100px;
+}
+.flex-item:nth-child(1){
+    width: 170px;
+    background: pink;
+}
+.flex-item:nth-child(3){
+    width: 170px;
+    background: pink;
+}
+.flex.auto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+.flex.auto div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin: auto;
+}
+
