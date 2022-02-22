@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    height: 200px;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    gap: 10px 20px;
+}
+.flex div{
+    width: 33.3%;
+}
+.blue{
+    background-color: blue;
+    order: 3;
+}
+.green{
+    background-color: green;
+    font-size: 40px;
+    order: 1;
+}
+.orange{
+    order:2;
+    background-color: orange;
+}
